@@ -2,8 +2,6 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![UPRJ_CI](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml) [![Caravel Build](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml)
 
-| :exclamation: Important Note            |
-|-----------------------------------------|
 
 Architecture design is a promising approach for designing power-efficient systems. Many
 images and compression algorithms are inherently error-tolerant and might allow mistakes up to
@@ -14,6 +12,6 @@ reduction in the hardware complexity and power consumption whilst retaining a lo
 This project constitutes the implementation of an 8x2 Multiplier using a decoder logic for low
 power consumption with an appropriate error 
 
-Refer to [README](docs/source/index.rst#section-quickstart) for a quickstart of how to use caravel_user_project
+This work is based on following article. Please refer them for more detailed description of DeBAM.
 
-Refer to [README](docs/source/index.rst) for this sample project documentation. 
+S. Nambi, U. A. Kumar, K. Radhakrishnan, M. Venkatesan and S. E. Ahmed, "DeBAM: Decoder Based Approximate Multiplier for Low Power Applications," in IEEE Embedded Systems Letters, doi: 10.1109/LES.2020.3045165. https://ieeexplore.ieee.org/document/9296261
