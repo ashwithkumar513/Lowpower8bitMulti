@@ -2,9 +2,9 @@
 
 
 module main(B,A,PO);
-parameter N=8;
-input [N-1:0] B;
-input [N-1:0] A;
+
+  input [7:0] B;
+  input [7:0] A;
 output [19:0] PO;
 
 wire [8:0] so2,so3,so11;
@@ -18,14 +18,14 @@ reg [19:0] so22= 20'b0;reg [19:0] so23= 20'b0;reg [19:0] so24= 20'b0;reg [19:0] 
   genvar i;
 
   generate
-      for (i=0;i<N;i=i+1)
+    for (i=0;i<8;i=i+1)
       begin
       and  (so4[i],B[i],A[6]);
       end
   endgenerate
 
   generate
-      for (i=0;i<N;i=i+1)
+    for (i=0;i<8;i=i+1)
       begin
       and  (so5[i],B[i],A[7]);
       end
