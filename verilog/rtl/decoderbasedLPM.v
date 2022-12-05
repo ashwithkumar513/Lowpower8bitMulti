@@ -1,11 +1,11 @@
 `timescale 1ns / 1ps
 
 module decoderbasedLPM(B,A1,A0,so);
-parameter N=8;
-        input [N-1:0] B;
+
+        input [7:0] B;
          input  A0;
          input A1;
-        output [N:0] so;
+        output [8:0] so;
      
    
         wire NB0,NB1,aB,Ab,AB,ap8,ap81,k1,a2,a3,a4,a5;            // always defined
